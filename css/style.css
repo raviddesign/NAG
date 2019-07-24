@@ -1,0 +1,190 @@
+/* Color
+Primary - F69A9A - 246,154,154
+Primary-dark - EF4566 - 239,69,102
+Tertiary Light- F9CDAE - 249,205,174
+Tertiary  Medium - C8C8A9 - 200,200,169
+Tertiary  Dark - 83AE9B - 131,174,155
+ */
+
+html{
+    margin: 0;
+    background-color: #83AE9B;
+}
+
+body{
+    background-color: #83AE9B; 
+    font-family: 'Rokkitt', serif;
+}
+
+h1,h2,h5,h6{
+    text-align: center;
+    font-family:'Jua', sans-serif;
+}
+
+h1{
+    text-transform: uppercase;
+
+}
+
+
+#home{
+    background:url(https://images.pexels.com/photos/45170/kittens-cat-cat-puppy-rush-45170.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940) no-repeat;
+background-repeat:no-repeat;
+-webkit-background-size:cover;
+-moz-background-size:cover;
+-o-background-size:cover;
+background-size:cover;
+background-position:center;
+min-height: 700px;
+}
+
+#home-overlay{
+    background-color: rgba(246, 154, 154, 0.8);
+    min-height: 700px;
+}
+
+#home-title{
+    padding-top: 250px;
+}
+
+#home-title-sub{
+    text-align: center;
+    padding-bottom: 250px;
+}
+
+#home-paw{
+    padding-top: 30px;
+    font-size: 60px;
+}
+
+#brianna{
+    border-radius: 50%;
+}
+
+#about-description{
+    padding-top: 50px;
+}
+
+#benefits{
+    align-items: center;
+}
+
+.card-logo{
+    font-size: 30px;
+}
+
+.card-overlay{
+    background-color: rgba(246, 154, 154, 0.8);
+    height: auto;
+}
+
+.card-health{
+    background: url(https://images.pexels.com/photos/374845/pexels-photo-374845.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-repeat:no-repeat;
+-webkit-background-size:cover;
+-moz-background-size:cover;
+-o-background-size:cover;
+background-size:cover;
+background-position:center;
+}
+
+.card-social{
+    background: url(https://images.pexels.com/photos/332974/pexels-photo-332974.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-repeat:no-repeat;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    background-position:center;
+}
+
+.card-social{
+    background: url(https://images.pexels.com/photos/332974/pexels-photo-332974.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-repeat:no-repeat;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    background-position:center;
+}
+
+.card-educational{
+    background: url(https://images.pexels.com/photos/275717/pexels-photo-275717.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-repeat:no-repeat;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    background-position:center;
+}
+
+#benefits{
+    background-color: #C8C8A9;
+}
+
+.pet-container{
+    padding-top: 50px;
+}
+
+
+#pet-1{
+    background: url(https://images.pexels.com/photos/460823/pexels-photo-460823.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-repeat:no-repeat;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    background-position:center;
+    transition: all .3s;
+}
+
+#pet-2{
+    background: url(https://images.pexels.com/photos/259803/pexels-photo-259803.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-repeat:no-repeat;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    background-position:center;
+    transition: all .3s;
+}
+
+#pet-3{
+    background: url(https://images.pexels.com/photos/33102/bulldog-puppy-dog-pet.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-repeat:no-repeat;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    background-position:center;
+    transition: all .3s;
+}
+
+#pet-4{
+    background: url(https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-repeat:no-repeat;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    background-position:center;
+    transition: all .3s;
+}
+
+.pet-content{
+    background-color: rgba(246, 154, 154, 0.8);
+    padding: 50px;
+    opacity: 0;
+}
+
+.pet-content:hover{
+    opacity: 1;
+}
+
+#contact{
+    text-align: center;
+}
+
+.contact-link{
+    color: black;
+}
